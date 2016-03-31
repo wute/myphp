@@ -1,0 +1,517 @@
+[ 2016-03-26T13:58:56+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+
+[ 2016-03-26T13:58:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T13:59:37+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num` FROM `article` WHERE `aid` = '1' LIMIT 1   [ RunTime:0.6220s ]
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 46 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+
+[ 2016-03-26T14:01:57+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT `view_num` FROM `article` WHERE `aid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+
+[ 2016-03-26T14:08:17+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num` FROM `article` WHERE `aid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'view_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'like_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'awd_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Illegal string offset 'col_num' D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\xampp\htdocs\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `article` SET 
+
+[ 2016-03-26T14:11:55+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.1460s ]
+
+[ 2016-03-26T14:13:03+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0010s ]
+
+[ 2016-03-26T14:15:30+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 48 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:17:37+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0010s ]
+
+[ 2016-03-26T14:18:23+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:23:00+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.1270s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:24:35+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:26:02+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0010s ]
+
+[ 2016-03-26T14:26:43+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:29:44+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:31:42+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: view_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 49 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: like_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 49 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: awd_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 49 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: col_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 49 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 47 行.
+NOTIC: [8] Undefined index: com_num D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 49 行.
+SQL: UPDATE `article` SET `view_num`='1',`like_num`='1',`awd_num`='1',`col_num`='1',`com_num`='1' [ RunTime:0.0000s ]
+
+[ 2016-03-26T14:35:31+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0000s ]
+SQL: UPDATE `article` SET `view_num`='2',`like_num`='2',`awd_num`='2',`col_num`='2',`com_num`='2' [ RunTime:0.0010s ]
+
+[ 2016-03-26T14:36:07+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0020s ]
+SQL: SELECT `view_num`,`like_num`,`awd_num`,`col_num`,`com_num` FROM `article` WHERE `aid` = '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\xampp\htdocs\Application\Admin\Controller\ArticleUpdateController.class.php 第 20 行.
+
+[ 2016-03-26T15:30:06+08:00 ] 127.0.0.1 /index.php/ArticleUpdate/articleUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+
+[ 2016-03-26T15:30:44+08:00 ] 127.0.0.1 /index.php/SignIn/signIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:SignIn
+
+[ 2016-03-26T15:31:13+08:00 ] 127.0.0.1 /index.php/SignIn/signIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:SignIn
+
+[ 2016-03-26T15:31:41+08:00 ] 127.0.0.1 /index.php/SignIn/signIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:SignIn
+
+[ 2016-03-26T15:32:14+08:00 ] 127.0.0.1 /index.php/SignIn/signIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.214012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.214012s ]
+
+[ 2016-03-26T15:32:49+08:00 ] 127.0.0.1 /index.php/SignIn/signIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T15:33:21+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.1380s ]
+NOTIC: [8] Undefined offset: 10000 D:\xampp\xampp\htdocs\Application\Admin\Controller\SignInController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:01:29+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:02:11+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:17:31+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0010s ]
+
+[ 2016-03-26T16:17:56+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:18:53+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:19:36+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:22:13+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:26:25+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:28:23+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T16:29:45+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-26T17:00:30+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0010s ]
+SQL: UPDATE `register` SET `reg_sum`='1' WHERE `uid` = 10000 [ RunTime:0.0010s ]
+
+[ 2016-03-26T17:01:03+08:00 ] 127.0.0.1 /index.php/SignIn/signIn?uid=10000&change%5Bview_num%5D=&change%5Blike_num%5D=&change%5Bawd_num%5D=&change%5Bcol_num%5D=&change%5Bcom_num%5D=&Submit=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `register` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `register` WHERE `uid` = 10000  [ RunTime:0.0000s ]
+
